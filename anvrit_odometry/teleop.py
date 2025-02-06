@@ -3,7 +3,7 @@ from rclpy.node import Node
 from std_msgs.msg import Int32MultiArray
 from geometry_msgs.msg import Twist
 
-class TicksPublisher(Node):
+class TeleopBridge(Node):
     def __init__(self):
         super().__init__('circle_tracker')
         self.publisher_ = self.create_publisher(Int32MultiArray, '/cmd_rpm', 10)
@@ -20,7 +20,7 @@ class TicksPublisher(Node):
         left_rpm = (linear_velocity - angular_velocity * self.RADIUS) * self.SPEEDK
         right_rpm = (linear_velocity + angular_velocity * self.RADIUS) * self.SPEEDK
         # print(left_rpm, right_rpm)
-        rpm.data = [min(int(abs(left_rpm)), 30), min(int(abs(right_rpm)), 30), self.sign(left_rpm), self.sign(right_rpm)]
+        rpm.data = [self.sign(left_rpm) * min(abs(int(left_rpm)), 30), self.sign(right_rpm) * min(abs(int(right_rpm)), 30)]
         self.get_logger().info(f"Publishing: {rpm.data}")
         self.publisher_.publish(rpm)
 
@@ -28,10 +28,11 @@ class TicksPublisher(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    ticks_pub = TicksPublisher()
+    ticks_pub = TeleopBridge()
     rclpy.spin(ticks_pub)
     ticks_pub.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
