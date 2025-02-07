@@ -27,13 +27,17 @@ class RpmPublisher(Node):
         rpm = []
         for i in range(2):
             ticks_diff[i] = self.current_ticks[i] - self.prev_ticks[i]
+            # self.get_logger().info(f"Ticks diff: {ticks_diff[i]}")
+            # self.get_logger().info(f"prev_ticks: {self.prev_ticks[i]}")
+            # self.get_logger().info(f"current_ticks: {self.current_ticks[i]}")
             _rpm = (ticks_diff[i] / self.TICKS_PER_REVOLUTION) * (60.0 / self.TIME_PERIOD)
             rpm.append(_rpm)
 
-        self.rpm_msg.data = [int(r) for r in rpm]
+        self.rpm_msg.data = [-1* int(r) for r in rpm]
         self.publisher_.publish(self.rpm_msg)
 
     def ticks_callback(self, ticks_data):
+        # self.get_logger().info(f"Ticks data: {ticks_data.data}")
         self.prev_ticks = self.current_ticks[:]
         self.current_ticks[0] = ticks_data.data[0]
         self.current_ticks[1] = ticks_data.data[1]

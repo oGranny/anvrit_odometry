@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'ticks_publisher=anvrit_odometry.ticks_pub:main',
+            'rpm_gen=anvrit_odometry.rpm_gen:main',
+            'teleop=anvrit_odometry.teleop:main',
+            'pid=anvrit_odometry.controller:main',
             'odometry_gen=anvrit_odometry.odometry_gen:main'
         ],
     },

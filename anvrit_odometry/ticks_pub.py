@@ -8,6 +8,7 @@ class TicksPublisher(Node):
         super().__init__('circle_tracker')
         self.baud_rate = 9600
         self.serial_port = "/dev/ttyUSB0"
+        self.data = Int32MultiArray()
         self.publisher_ = self.create_publisher(Int32MultiArray, '/wheel_ticks', 10)
         try:
             self.ser = serial.Serial(self.serial_port, self.baud_rate, timeout=1)
@@ -15,9 +16,9 @@ class TicksPublisher(Node):
             self.get_logger().error(f"Failed to open serial port: {e}")
             self.ser = None
 
-    def read_serial(self) -> list:
+    def publish_ticks(self) -> list:
         if self.ser is None:
-            return [0, 0]
+            pass
 
         arr = [0, 0]
         try:
@@ -29,15 +30,11 @@ class TicksPublisher(Node):
                         arr[0] = int(data[0])
                         arr[1] = int(data[1])
                         self.get_logger().info(f"Received values: {arr}")
+                        self.data.data = arr
+                        self.publisher_.publish(self.data)
         except Exception as e:
             self.get_logger().error(f"Error reading from serial port: {e}")
 
-        return arr
-
-    def publish_ticks(self):
-        msg = Int32MultiArray()
-        msg.data = self.read_serial()
-        self.publisher_.publish(msg)
 
 def main(args=None):
     rclpy.init(args=args)
