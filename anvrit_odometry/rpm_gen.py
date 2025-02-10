@@ -8,11 +8,11 @@ class RpmPublisher(Node):
     def __init__(self):
         super().__init__('circle_tracker')
         
-        self.TICKS_PER_REVOLUTION = 23000
+        self.TICKS_PER_REVOLUTION = 47000
         self.WHEEL_RADIUS = 0.2
         self.WHEEL_BASE = 0.85
-        self.TICKS_PER_METER = 18312
-        self.TIME_PERIOD = 0.05
+        # self.TICKS_PER_METER = 35000
+        self.TIME_PERIOD = 0.1 #! since ticks get published at 10Hz
         self.current_ticks = [0, 0]
         self.prev_ticks = [0, 0]
 
@@ -33,7 +33,7 @@ class RpmPublisher(Node):
             _rpm = (ticks_diff[i] / self.TICKS_PER_REVOLUTION) * (60.0 / self.TIME_PERIOD)
             rpm.append(_rpm)
 
-        self.rpm_msg.data = [-1* int(r) for r in rpm]
+        self.rpm_msg.data = [-1*int(r) for r in rpm]
         self.publisher_.publish(self.rpm_msg)
 
     def ticks_callback(self, ticks_data):

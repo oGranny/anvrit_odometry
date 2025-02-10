@@ -18,7 +18,7 @@ class TicksPublisher(Node):
 
     def publish_ticks(self) -> list:
         if self.ser is None:
-            pass
+            return
 
         arr = [0, 0]
         try:

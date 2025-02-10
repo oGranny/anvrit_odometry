@@ -17,10 +17,10 @@ class OdometryGen(Node):
         self.new_odom = Odometry()
         self.old_odom = Odometry()
 
-        self.TICKS_PER_REVOLUTION = 23000
+        self.TICKS_PER_REVOLUTION = 47000
         self.WHEEL_RADIUS = 0.2
         self.WHEEL_BASE = 0.85
-        self.TICKS_PER_METER = 18312
+        self.TICKS_PER_METER = 38420
 
         self.distance_left = 0
         self.distance_right = 0
