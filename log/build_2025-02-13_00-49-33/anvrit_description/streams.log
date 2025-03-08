@@ -1,0 +1,40 @@
+[0.050s] Invoking command in '/home/lalit/cyb_ws/build/anvrit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/cyb_ws/install/anvrit_odometry:/home/lalit/cyb_ws/install/anvrit_navigation:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --build /home/lalit/cyb_ws/build/anvrit_description -- -j16 -l16
+[0.529s] Invoked command in '/home/lalit/cyb_ws/build/anvrit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/cyb_ws/install/anvrit_odometry:/home/lalit/cyb_ws/install/anvrit_navigation:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --build /home/lalit/cyb_ws/build/anvrit_description -- -j16 -l16
+[0.932s] Invoking command in '/home/lalit/cyb_ws/build/anvrit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/cyb_ws/install/anvrit_odometry:/home/lalit/cyb_ws/install/anvrit_navigation:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --install /home/lalit/cyb_ws/build/anvrit_description
+[0.956s] -- Install configuration: ""
+[0.956s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//launch
+[0.956s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//launch/spawn_anvrit.launch.py
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//launch/robot_state_publisher.launch.py
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//launch/empty_world.launch.py
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/camera_link.STL
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/phone_link.STL
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/base_link.STL
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/caster_1_link.STL
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/lidar_link.STL
+[0.968s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/caster_2_link.STL
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/left_wheel_link.STL
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/gps_link.STL
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/wheel.stl
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//meshes/right_wheel_link.STL
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//worlds
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//worlds/empty_world.world
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//urdf
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//urdf/anvrit.gazebo
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description//urdf/anvrit.urdf.xacro
+[0.969s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/ament_index/resource_index/package_run_dependencies/anvrit_description
+[0.970s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/ament_index/resource_index/parent_prefix_path/anvrit_description
+[0.970s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/environment/ament_prefix_path.sh
+[0.971s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/environment/ament_prefix_path.dsv
+[0.971s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/environment/path.sh
+[0.972s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/environment/path.dsv
+[0.972s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/local_setup.bash
+[0.973s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/local_setup.sh
+[0.973s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/local_setup.zsh
+[0.974s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/local_setup.dsv
+[0.975s] -- Installing: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/package.dsv
+[0.975s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/ament_index/resource_index/packages/anvrit_description
+[0.975s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/cmake/anvrit_descriptionConfig.cmake
+[0.976s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/cmake/anvrit_descriptionConfig-version.cmake
+[0.977s] -- Up-to-date: /home/lalit/cyb_ws/install/anvrit_description/share/anvrit_description/package.xml
+[0.981s] Invoked command in '/home/lalit/cyb_ws/build/anvrit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/cyb_ws/install/anvrit_odometry:/home/lalit/cyb_ws/install/anvrit_navigation:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --install /home/lalit/cyb_ws/build/anvrit_description

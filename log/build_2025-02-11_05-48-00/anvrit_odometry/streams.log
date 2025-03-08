@@ -1,0 +1,56 @@
+[1.808s] Invoking command in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/anvrit_odometry build --build-base /home/lalit/cyb_ws/build/anvrit_odometry/build install --record /home/lalit/cyb_ws/build/anvrit_odometry/install.log --single-version-externally-managed install_data
+[2.275s] running egg_info
+[2.276s] creating ../../../build/anvrit_odometry/anvrit_odometry.egg-info
+[2.276s] writing ../../../build/anvrit_odometry/anvrit_odometry.egg-info/PKG-INFO
+[2.277s] writing dependency_links to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/dependency_links.txt
+[2.277s] writing entry points to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/entry_points.txt
+[2.277s] writing requirements to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/requires.txt
+[2.277s] writing top-level names to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/top_level.txt
+[2.278s] writing manifest file '../../../build/anvrit_odometry/anvrit_odometry.egg-info/SOURCES.txt'
+[2.280s] reading manifest file '../../../build/anvrit_odometry/anvrit_odometry.egg-info/SOURCES.txt'
+[2.281s] writing manifest file '../../../build/anvrit_odometry/anvrit_odometry.egg-info/SOURCES.txt'
+[2.281s] running build
+[2.281s] running build_py
+[2.281s] creating /home/lalit/cyb_ws/build/anvrit_odometry/build
+[2.282s] creating /home/lalit/cyb_ws/build/anvrit_odometry/build/lib
+[2.282s] creating /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.282s] copying anvrit_odometry/teleop.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.282s] copying anvrit_odometry/ticks_pub.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.282s] copying anvrit_odometry/test.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.283s] copying anvrit_odometry/rpm_gen.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.283s] copying anvrit_odometry/controller.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.283s] copying anvrit_odometry/__init__.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.283s] copying anvrit_odometry/odometry_gen.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+[2.283s] running install
+[2.284s] running install_lib
+[2.284s] creating /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.284s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/teleop.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/ticks_pub.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/test.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/rpm_gen.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/controller.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/__init__.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.285s] copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/odometry_gen.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+[2.286s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/teleop.py to teleop.cpython-310.pyc
+[2.286s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/ticks_pub.py to ticks_pub.cpython-310.pyc
+[2.287s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/test.py to test.cpython-310.pyc
+[2.287s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/rpm_gen.py to rpm_gen.cpython-310.pyc
+[2.288s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/controller.py to controller.cpython-310.pyc
+[2.290s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/__init__.py to __init__.cpython-310.pyc
+[2.290s] byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/odometry_gen.py to odometry_gen.cpython-310.pyc
+[2.291s] running install_data
+[2.291s] creating /home/lalit/cyb_ws/install/anvrit_odometry/share/ament_index
+[2.291s] creating /home/lalit/cyb_ws/install/anvrit_odometry/share/ament_index/resource_index
+[2.291s] creating /home/lalit/cyb_ws/install/anvrit_odometry/share/ament_index/resource_index/packages
+[2.291s] copying resource/anvrit_odometry -> /home/lalit/cyb_ws/install/anvrit_odometry/share/ament_index/resource_index/packages
+[2.292s] copying package.xml -> /home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry
+[2.292s] running install_egg_info
+[2.295s] Copying ../../../build/anvrit_odometry/anvrit_odometry.egg-info to /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry-0.0.0-py3.10.egg-info
+[2.296s] running install_scripts
+[2.333s] Installing odometry_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[2.333s] Installing pid script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[2.333s] Installing rpm_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[2.333s] Installing teleop script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[2.334s] Installing ticks_publisher script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[2.334s] writing list of installed files to '/home/lalit/cyb_ws/build/anvrit_odometry/install.log'
+[2.377s] Invoked command in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry' returned '0': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/anvrit_odometry build --build-base /home/lalit/cyb_ws/build/anvrit_odometry/build install --record /home/lalit/cyb_ws/build/anvrit_odometry/install.log --single-version-externally-managed install_data

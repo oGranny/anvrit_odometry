@@ -1,0 +1,8 @@
+[console_scripts]
+odm_gen1 = anvrit_odometry.odm_gen:main
+odometry_gen = anvrit_odometry.odometry_gen:main
+pid = anvrit_odometry.controller:main
+rpm_gen = anvrit_odometry.rpm_gen:main
+teleop = anvrit_odometry.teleop:main
+ticks_publisher = anvrit_odometry.ticks_pub:main
+

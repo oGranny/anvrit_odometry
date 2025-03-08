@@ -1,0 +1,20 @@
+[1.530s] Invoking command in '/home/lalit/ros2_ws/src/Anvrit/anvrit_navigation': PYTHONPATH=/home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/anvrit_navigation build --build-base /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build install --record /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/install.log --single-version-externally-managed install_data
+[1.893s] running egg_info
+[1.894s] writing ../build/anvrit_navigation/anvrit_navigation.egg-info/PKG-INFO
+[1.895s] writing dependency_links to ../build/anvrit_navigation/anvrit_navigation.egg-info/dependency_links.txt
+[1.896s] writing entry points to ../build/anvrit_navigation/anvrit_navigation.egg-info/entry_points.txt
+[1.896s] writing requirements to ../build/anvrit_navigation/anvrit_navigation.egg-info/requires.txt
+[1.896s] writing top-level names to ../build/anvrit_navigation/anvrit_navigation.egg-info/top_level.txt
+[1.898s] reading manifest file '../build/anvrit_navigation/anvrit_navigation.egg-info/SOURCES.txt'
+[1.900s] writing manifest file '../build/anvrit_navigation/anvrit_navigation.egg-info/SOURCES.txt'
+[1.900s] running build
+[1.900s] running build_py
+[1.901s] running install
+[1.901s] running install_lib
+[1.903s] running install_data
+[1.905s] running install_egg_info
+[1.908s] removing '/home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.908s] Copying ../build/anvrit_navigation/anvrit_navigation.egg-info to /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation-0.0.0-py3.10.egg-info
+[1.909s] running install_scripts
+[1.943s] writing list of installed files to '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/install.log'
+[1.983s] Invoked command in '/home/lalit/ros2_ws/src/Anvrit/anvrit_navigation' returned '0': PYTHONPATH=/home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/anvrit_navigation build --build-base /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build install --record /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/install.log --single-version-externally-managed install_data

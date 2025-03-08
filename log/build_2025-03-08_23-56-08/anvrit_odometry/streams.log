@@ -1,0 +1,26 @@
+[0.811s] Invoking command in '/home/lalit/cyb_ws/build/anvrit_odometry': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lalit/cyb_ws/build/anvrit_odometry/build --no-deps symlink_data --force
+[1.145s] running develop
+[1.336s] running egg_info
+[1.336s] writing anvrit_odometry.egg-info/PKG-INFO
+[1.336s] writing dependency_links to anvrit_odometry.egg-info/dependency_links.txt
+[1.336s] writing entry points to anvrit_odometry.egg-info/entry_points.txt
+[1.336s] writing requirements to anvrit_odometry.egg-info/requires.txt
+[1.336s] writing top-level names to anvrit_odometry.egg-info/top_level.txt
+[1.339s] reading manifest file 'anvrit_odometry.egg-info/SOURCES.txt'
+[1.339s] writing manifest file 'anvrit_odometry.egg-info/SOURCES.txt'
+[1.341s] running build_ext
+[1.341s] Creating /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit-odometry.egg-link (link to .)
+[1.342s] Installing odm_gen1 script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] Installing odometry_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] Installing pid script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] Installing rpm_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] Installing teleop script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] Installing ticks_publisher script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+[1.343s] 
+[1.343s] Installed /home/lalit/cyb_ws/build/anvrit_odometry
+[1.343s] running symlink_data
+[1.343s] symbolically linking /home/lalit/cyb_ws/build/anvrit_odometry/resource/anvrit_odometry -> /home/lalit/cyb_ws/install/anvrit_odometry/share/ament_index/resource_index/packages
+[1.344s] symbolically linking /home/lalit/cyb_ws/build/anvrit_odometry/package.xml -> /home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry
+[1.344s] symbolically linking /home/lalit/cyb_ws/build/anvrit_odometry/launch/odm_gen_launch.py -> /home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/launch
+[1.344s] symbolically linking /home/lalit/cyb_ws/build/anvrit_odometry/launch/visual.launch.py -> /home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/launch
+[1.380s] Invoked command in '/home/lalit/cyb_ws/build/anvrit_odometry' returned '0': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lalit/cyb_ws/build/anvrit_odometry/build --no-deps symlink_data --force

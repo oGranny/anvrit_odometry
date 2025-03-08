@@ -1,0 +1,27 @@
+running egg_info
+writing ../../../build/anvrit_odometry/anvrit_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/dependency_links.txt
+writing entry points to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/entry_points.txt
+writing requirements to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/requires.txt
+writing top-level names to ../../../build/anvrit_odometry/anvrit_odometry.egg-info/top_level.txt
+reading manifest file '../../../build/anvrit_odometry/anvrit_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../../build/anvrit_odometry/anvrit_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+copying anvrit_odometry/odometry_gen.py -> /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry
+running install
+running install_lib
+copying /home/lalit/cyb_ws/build/anvrit_odometry/build/lib/anvrit_odometry/odometry_gen.py -> /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry
+byte-compiling /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry/odometry_gen.py to odometry_gen.cpython-310.pyc
+running install_data
+copying launch/visual.launch.py -> /home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/launch
+running install_egg_info
+removing '/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/anvrit_odometry/anvrit_odometry.egg-info to /home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages/anvrit_odometry-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odometry_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+Installing pid script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+Installing rpm_gen script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+Installing teleop script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+Installing ticks_publisher script to /home/lalit/cyb_ws/install/anvrit_odometry/lib/anvrit_odometry
+writing list of installed files to '/home/lalit/cyb_ws/build/anvrit_odometry/install.log'

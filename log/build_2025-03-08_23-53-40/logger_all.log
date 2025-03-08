@@ -1,0 +1,194 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'anvrit_odometry']
+[0.153s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['anvrit_odometry'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70965885f760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70965885f220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70965885f220>>, mixin_verb=('build',))
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.340s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lalit/cyb_ws'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_description) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Anvrit/anvrit_description' with type 'ros.ament_cmake' and name 'anvrit_description'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_gazebo) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Anvrit/anvrit_gazebo' with type 'ros.ament_cmake' and name 'anvrit_gazebo'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_navigation) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Anvrit/anvrit_navigation' with type 'ros.ament_python' and name 'anvrit_navigation'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/anvrit_odometry) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Anvrit/anvrit_odometry' with type 'ros.ament_python' and name 'anvrit_odometry'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/log) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/log) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/Anvrit/log) ignored
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.403s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'anvrit_description' in 'src/Anvrit/anvrit_description'
+[0.403s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'anvrit_gazebo' in 'src/Anvrit/anvrit_gazebo'
+[0.403s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'anvrit_navigation' in 'src/Anvrit/anvrit_navigation'
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.418s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/lalit/ros2_ws/install
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lalit/ros2_ws/src/vectornav/install
+[0.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/humble
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_target' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'anvrit_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.605s] DEBUG:colcon.colcon_core.verb:Building package 'anvrit_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lalit/cyb_ws/build/anvrit_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lalit/cyb_ws/install/anvrit_odometry', 'merge_install': False, 'path': '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.605s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry' with build type 'ament_python'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('anvrit_odometry', 'ament_prefix_path')
+[0.612s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/ament_prefix_path.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/ament_prefix_path.dsv'
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/ament_prefix_path.sh'
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.618s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.976s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry'
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lalit/cyb_ws/build/anvrit_odometry': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lalit/cyb_ws/build/anvrit_odometry/build
+[2.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lalit/cyb_ws/build/anvrit_odometry' returned '0': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lalit/cyb_ws/build/anvrit_odometry/build
+[2.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/anvrit_odometry build --build-base /home/lalit/cyb_ws/build/anvrit_odometry/build install --record /home/lalit/cyb_ws/build/anvrit_odometry/install.log --single-version-externally-managed install_data --force
+[2.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lalit/cyb_ws/src/Anvrit/anvrit_odometry' returned '0': PYTHONPATH=/home/lalit/cyb_ws/build/anvrit_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/anvrit_odometry build --build-base /home/lalit/cyb_ws/build/anvrit_odometry/build install --record /home/lalit/cyb_ws/build/anvrit_odometry/install.log --single-version-externally-managed install_data --force
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry' for CMake module files
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry' for CMake config files
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry/lib'
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry/bin'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry/lib/pkgconfig/anvrit_odometry.pc'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry/lib/python3.10/site-packages'
+[2.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('anvrit_odometry', 'pythonpath')
+[2.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/pythonpath.ps1'
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/pythonpath.dsv'
+[2.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/hook/pythonpath.sh'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/lalit/cyb_ws/install/anvrit_odometry/bin'
+[2.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(anvrit_odometry)
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/package.ps1'
+[2.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/package.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/package.sh'
+[2.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/package.bash'
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/lalit/cyb_ws/install/anvrit_odometry/share/anvrit_odometry/package.zsh'
+[2.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lalit/cyb_ws/install/anvrit_odometry/share/colcon-core/packages/anvrit_odometry)
+[2.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.643s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.656s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.657s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.678s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lalit/cyb_ws/install/local_setup.ps1'
+[2.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lalit/cyb_ws/install/_local_setup_util_ps1.py'
+[2.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lalit/cyb_ws/install/setup.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lalit/cyb_ws/install/local_setup.sh'
+[2.687s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lalit/cyb_ws/install/_local_setup_util_sh.py'
+[2.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lalit/cyb_ws/install/setup.sh'
+[2.690s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lalit/cyb_ws/install/local_setup.bash'
+[2.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lalit/cyb_ws/install/setup.bash'
+[2.693s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lalit/cyb_ws/install/local_setup.zsh'
+[2.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lalit/cyb_ws/install/setup.zsh'

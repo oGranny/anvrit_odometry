@@ -1,0 +1,223 @@
+[0.038s] Invoking command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake /home/lalit/ros2_ws/src/Anvrit/anvrit_gazebo -DCMAKE_INSTALL_PREFIX=/home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo
+[0.525s] -- The C compiler identification is GNU 11.4.0
+[0.525s] -- The CXX compiler identification is GNU 11.4.0
+[0.526s] -- Detecting C compiler ABI info
+[0.526s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.528s] -- Detecting C compile features - done
+[0.529s] -- Detecting CXX compiler ABI info
+[0.667s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.008s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.225s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.342s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.360s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.383s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.419s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.660s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.669s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.895s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.950s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.070s] -- Looking for pthread.h
+[2.209s] -- Looking for pthread.h - found
+[2.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.349s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.352s] -- Found Threads: TRUE  
+[2.622s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[2.626s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.700s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.703s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.833s] -- Added test 'lint_cmake' to check CMake code style
+[2.834s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.842s] -- Added test 'xmllint' to check XML markup files
+[2.843s] -- Configuring done
+[2.849s] -- Generating done
+[2.851s] -- Build files have been written to: /home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo
+[2.864s] Invoked command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake /home/lalit/ros2_ws/src/Anvrit/anvrit_gazebo -DCMAKE_INSTALL_PREFIX=/home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo
+[2.865s] Invoking command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --build /home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo -- -j16 -l16
+[2.915s] Invoked command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --build /home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo -- -j16 -l16
+[2.950s] Invoking command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --install /home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo
+[2.961s] -- Install configuration: ""
+[2.961s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//launch
+[2.961s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//launch/warehouse_world.launch.py
+[2.964s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//worlds
+[2.964s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//worlds/small_warehouse.world
+[2.964s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//worlds/no_roof_small_warehouse.world
+[2.964s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models
+[2.964s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials/textures
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/model.config
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[2.965s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[2.966s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01
+[2.966s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials
+[2.966s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures
+[2.966s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[2.966s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[2.967s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[2.968s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[2.969s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[2.969s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[2.970s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/meshes
+[2.970s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[2.970s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[2.971s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[2.972s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[2.973s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[2.973s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[2.974s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[2.974s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[2.974s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes
+[2.974s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[2.975s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[2.975s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01
+[2.975s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials
+[2.975s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[2.976s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures
+[2.976s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[2.976s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[2.977s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[2.978s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[2.979s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[2.983s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/model.config
+[2.983s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[2.983s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes
+[2.983s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[2.984s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[2.984s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01
+[2.985s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/materials
+[2.985s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[2.985s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/materials/textures
+[2.985s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[2.986s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[2.986s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/model.config
+[2.986s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/meshes
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures
+[2.987s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[2.988s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[2.989s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[2.989s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[2.989s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes
+[2.989s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials/textures
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[2.990s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/model.config
+[2.991s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[2.991s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes
+[2.991s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[2.991s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[2.992s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01
+[2.992s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials
+[2.992s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures
+[2.992s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[2.993s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[2.993s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[2.993s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes
+[2.993s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[2.994s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[2.995s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01
+[2.995s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials
+[2.995s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures
+[2.995s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[2.999s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[2.999s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/model.config
+[2.999s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[2.999s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes
+[2.999s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures
+[3.000s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[3.001s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[3.001s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[3.002s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[3.003s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[3.003s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[3.004s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[3.004s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes
+[3.004s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[3.004s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[3.005s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01
+[3.005s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/materials
+[3.005s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/materials/textures
+[3.005s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[3.006s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/model.config
+[3.006s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[3.006s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes
+[3.006s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[3.007s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[3.007s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01
+[3.007s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials
+[3.007s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures
+[3.007s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[3.008s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[3.009s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[3.009s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[3.009s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes
+[3.009s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[3.009s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[3.010s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01
+[3.010s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials
+[3.010s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures
+[3.010s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[3.011s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[3.012s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[3.013s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[3.013s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[3.013s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes
+[3.013s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[3.014s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[3.015s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01
+[3.016s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials
+[3.016s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[3.016s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[3.016s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[3.018s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[3.018s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[3.018s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[3.018s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[3.019s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[3.019s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[3.019s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[3.021s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/ament_index/resource_index/package_run_dependencies/anvrit_gazebo
+[3.021s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/ament_index/resource_index/parent_prefix_path/anvrit_gazebo
+[3.021s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/environment/ament_prefix_path.sh
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/environment/ament_prefix_path.dsv
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/environment/path.sh
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/environment/path.dsv
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/local_setup.bash
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/local_setup.sh
+[3.022s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/local_setup.zsh
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/local_setup.dsv
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/package.dsv
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/ament_index/resource_index/packages/anvrit_gazebo
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/cmake/anvrit_gazeboConfig.cmake
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/cmake/anvrit_gazeboConfig-version.cmake
+[3.023s] -- Installing: /home/lalit/ros2_ws/src/Anvrit/install/anvrit_gazebo/share/anvrit_gazebo/package.xml
+[3.027s] Invoked command in '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lalit/ros2_ws/install/turtle_controller:/home/lalit/ros2_ws/install/nav2_gps_waypoint_follower_demo:/home/lalit/ros2_ws/install/bot_control:/home/lalit/ros2_ws/install/anvrit_odometry:/opt/ros/humble /usr/bin/cmake --install /home/lalit/ros2_ws/src/Anvrit/build/anvrit_gazebo

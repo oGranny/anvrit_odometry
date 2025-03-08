@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/anvrit_navigation/anvrit_navigation.egg-info
+writing ../build/anvrit_navigation/anvrit_navigation.egg-info/PKG-INFO
+writing dependency_links to ../build/anvrit_navigation/anvrit_navigation.egg-info/dependency_links.txt
+writing entry points to ../build/anvrit_navigation/anvrit_navigation.egg-info/entry_points.txt
+writing requirements to ../build/anvrit_navigation/anvrit_navigation.egg-info/requires.txt
+writing top-level names to ../build/anvrit_navigation/anvrit_navigation.egg-info/top_level.txt
+writing manifest file '../build/anvrit_navigation/anvrit_navigation.egg-info/SOURCES.txt'
+reading manifest file '../build/anvrit_navigation/anvrit_navigation.egg-info/SOURCES.txt'
+writing manifest file '../build/anvrit_navigation/anvrit_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build
+creating /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build/lib
+creating /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build/lib/anvrit_navigation
+copying anvrit_navigation/__init__.py -> /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build/lib/anvrit_navigation
+running install
+running install_lib
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation
+copying /home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/build/lib/anvrit_navigation/__init__.py -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation
+byte-compiling /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/ament_index
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/ament_index/resource_index
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/ament_index/resource_index/packages
+copying resource/anvrit_navigation -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/launch
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/config
+copying config/mapper_params_online_async.yaml -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/config
+creating /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/maps
+copying maps/warehouse_map.yaml -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/maps
+copying maps/warehouse_map.pgm -> /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/share/anvrit_navigation/maps
+running install_egg_info
+Copying ../build/anvrit_navigation/anvrit_navigation.egg-info to /home/lalit/ros2_ws/src/Anvrit/install/anvrit_navigation/lib/python3.10/site-packages/anvrit_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lalit/ros2_ws/src/Anvrit/build/anvrit_navigation/install.log'
